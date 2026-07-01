@@ -1,0 +1,14 @@
+class Solution {
+    public int triangularSum(int[] nums) {
+        int i,len=nums.length;
+        while(len>0)
+        {
+            for(i=0;i<len-1;i++)
+            {
+                nums[i]=(nums[i]+nums[i+1])%10;
+            }
+            len--;
+        }
+        return nums[0];
+    }
+}
