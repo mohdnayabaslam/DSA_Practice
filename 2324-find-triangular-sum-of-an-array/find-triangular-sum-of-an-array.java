@@ -1,7 +1,7 @@
 class Solution {
     public int triangularSum(int[] nums) {
         int i,len=nums.length;
-        while(len>0)
+        while(len>1)
         {
             for(i=0;i<len-1;i++)
             {
