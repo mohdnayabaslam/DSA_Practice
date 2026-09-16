@@ -15,7 +15,6 @@ class Solution {
             }
             if((max-min)<=k)
                 return i;
-            
         }
         return -1;
     }
